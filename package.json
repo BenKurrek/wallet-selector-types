@@ -1,0 +1,22 @@
+{
+  "name": "wallet-selector-types",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/main.js"
+  },
+  "dependencies": {
+    "@near-js/keystores-node": "^0.0.11",
+    "@near-js/types": "^0.2.0",
+    "@near-js/wallet-account": "^1.2.1",
+    "@near-wallet-selector/core": "^8.9.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "typescript": "^4.9.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
